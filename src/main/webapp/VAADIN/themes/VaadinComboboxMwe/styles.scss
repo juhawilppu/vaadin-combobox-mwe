@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "vaadincomboboxmwe.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadincomboboxmwe.scss */
+.VaadinComboboxMwe {
+  @include addons;
+  @include vaadincomboboxmwe;
+}
